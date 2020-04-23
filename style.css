@@ -1,0 +1,88 @@
+﻿body {
+  margin: 0;
+  font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+  width: 100wh;
+  height: 100vh; 
+}
+
+/* Основная часть */
+/* -------------------------------------------------------------------------- */
+.background {
+  background: #f9f2e3 url(img/background.jpg) repeat;
+}
+.content {
+  width: 900px;
+  height: 100%; 
+  margin-left: auto; 
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: top;
+  background-attachment: fixed;
+}
+
+/* Подвал */
+/* -------------------------------------------------------------------------- */
+.footer { 
+  background: none; 
+  margin-top: -77px; /* Поднимаем вверх */
+  overflow: auto; /* Отменяем схлопывающиеся отступы */
+  position: relative; /* Относительное позиционирование */
+  margin-top: 50px; /* Сдвигаем вниз */
+}
+
+.copyright {
+  width: 740px; /* Ширина макета без полей */
+  margin: left; /* Выравнивание по центру */
+  color: grey; /* Цвет текста */
+}
+.copyright p { 
+  margin: 0 0 0 0; /* Отступы текста */ 
+}
+
+/* Ссылки */
+/* -------------------------------------------------------------------------- */
+
+a {
+  color: #1b75bc; 
+}
+
+a:hover {
+  color: #d6562b; 
+}
+
+
+/* Текст */
+/* -------------------------------------------------------------------------- */
+h1 {
+	color: white; 
+	margin-top: 0;
+	margin-left: 10px;
+}
+h2 {
+  color: white;
+  margin-left: 10px;
+}
+
+p {
+	margin: 10px;
+	color: white;
+}
+
+li {
+	margin-bottom: 0;
+	color: white;
+}
+
+q {
+	color: white;
+	margin: 10px;
+}
+
+img {
+	float: right;
+	margin: 10px 10px 10px 10px;	
+}
+
+
+
+  
